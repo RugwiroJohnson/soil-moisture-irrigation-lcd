@@ -4,7 +4,7 @@ This Arduino project automatically irrigates plants based on soil moisture readi
 
 ## Features
 
-- Real-time soil moisture monitoring using analog sensor
+- Real-time soil moisture monitoring using analog capacitance sensor
 - Pump control using relay (ON when dry, OFF when wet)
 - Live display on 16x2 LCD (I2C)
 - Calibration values for wet and dry soil adjustable in code
@@ -12,9 +12,9 @@ This Arduino project automatically irrigates plants based on soil moisture readi
 ## Hardware Used
 
 - Arduino Uno/Nano
-- Soil moisture sensor (analog)
+- Capacitance soil moisture sensor (analog)
 - 5V relay module
-- Water pump
+- Submersible Water pump
 - 16x2 I2C LCD display
 - Breadboard + jumper wires
 
